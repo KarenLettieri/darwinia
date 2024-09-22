@@ -43,6 +43,7 @@ CREATE TABLE expenses (
     "description" text NOT NULL,
     "amount" money NOT NULL,
     "category" text);
+```
 
 ## Project Requirements
 
@@ -83,4 +84,4 @@ python main.py
 python -m unittest discover -s tests
 
 
-```
+
